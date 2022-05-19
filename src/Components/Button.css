@@ -1,0 +1,21 @@
+:root {
+    --backGround_button: #F0F0F0;
+
+    --border_button: solid 1px #888888;
+}
+
+.button {
+    background-color: var(--backGround_button);
+
+    border: none;
+
+    border-bottom: var(--border_button);
+
+    border-right: var(--border_button);
+
+    cursor: pointer;
+
+    font-size: 1.4rem;
+
+    outline: none;
+}

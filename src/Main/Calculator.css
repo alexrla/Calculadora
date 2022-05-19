@@ -3,6 +3,12 @@
 
     border-radius: 5px;
 
+    display: grid;
+
+    grid-template-columns: repeat(4, 25%);
+
+    grid-template-rows: 48px 48px 48px 48px 48px;
+
     height: 320px;
 
     overflow: hidden;
