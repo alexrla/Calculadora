@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Display from "../Components/Display";
 import Button from "../Components/Button";
 
 import './Calculator.css';
@@ -7,6 +8,7 @@ export default function Calculator(props)   {
     return (
         <div>
             <div className="calculator">
+                <Display value={100} />
                 <Button label="AC" />
                 <Button label="÷" />
                 <Button label="7" />
