@@ -19,3 +19,33 @@
 
     outline: none;
 }
+
+.button:active  {
+    background-color: #CCCCCC;
+}
+
+.button.doublePositions  {
+    grid-column: span 2;
+}
+
+.button.triplePositions  {
+    grid-column: span 3;
+}
+
+.button.roundBorderOne {
+    border-bottom-left-radius: 5px;
+}
+
+.button.roundBorderTwo {
+    border-bottom-right-radius: 5px;
+}
+
+.button.operation   {
+    background-color: #83BAF1;
+
+    color: #FFFFFF;
+}
+
+.button.operation:active    {
+    background-color: #68A9EB;
+}

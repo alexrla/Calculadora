@@ -5,17 +5,11 @@
 
     display: flex;
 
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 
     grid-column: span 4;
 
     justify-content: flex-end;
 
-    overflow-x: scroll;
-
     padding: 0 5px 10px 0;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
